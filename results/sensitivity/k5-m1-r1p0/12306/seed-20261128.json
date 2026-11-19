@@ -1,0 +1,55 @@
+{
+  "status": "pilot_complete",
+  "dataset": "12306.cn",
+  "dataset_id": "12306",
+  "input_sha256": "902eed609f84fe8c60c43ae5f1a6cfeec0abe7ded56876c29e36fb809eda1b78",
+  "input_file": "dataset/12306-\u5b8c\u6574.txt",
+  "input_format": "12306_delimited",
+  "users": 131653,
+  "preprocessing": {
+    "excluded_nonrecord_rows": 1,
+    "excluded_line_numbers": [
+      1
+    ]
+  },
+  "distinct_passwords": 117808,
+  "configuration": {
+    "k": 5,
+    "m": 1,
+    "r": 1.0,
+    "seed": 20261128,
+    "registration_order_seed": 20261117
+  },
+  "code_revision": "57e41cfbf62f13e79df77dbf553525f33d51a643",
+  "runner_sha256": "ac804ecafcba766fc3d77767f0e3a272e6342c164389bc9ff9762e7485b911f9",
+  "python_version": "3.13.9",
+  "platform": "Windows-11-10.0.26200-SP0",
+  "output_file": "results/sensitivity/k5-m1-r1p0/12306/seed-20261128.json",
+  "protocol_assumptions": [
+    "initial snapshot contains only the first 90 percent of synthetic account order",
+    "initial HIS values are sampled from the populated 90 percent pool; pre-leak history is abstracted",
+    "remaining accounts register sequentially and enter the pool before the update",
+    "seeded order is synthetic and determines the 90/100 cohort split only",
+    "CUA targets the initial 90 percent cohort; all users contribute to update pool",
+    "CUA cost estimates use only password counts available in the initial leak",
+    "one fixed post-update state; real-slot precedence on repeated-plaintext collisions",
+    "stable RI order breaks cost ties; partial refresh selects uniformly without replacement"
+  ],
+  "dla": {
+    "targets": 131653,
+    "fully_broken": 131653,
+    "fully_broken_ratio": 1.0,
+    "mean_candidate_set_size": 1.0,
+    "median_candidate_set_size": 1
+  },
+  "cua": {
+    "targets": 118487,
+    "recovered": 118487,
+    "attempts": 245207,
+    "realized_alarms": 4,
+    "expected_alarms_cost_model": 5.336479,
+    "honeyword_hit_ratio": 1.6312748004747008e-05
+  },
+  "elapsed_seconds": 43.019,
+  "raw_credentials_exported": false
+}

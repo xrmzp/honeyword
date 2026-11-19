@@ -1,0 +1,50 @@
+{
+  "dataset_id": "myspace",
+  "dataset": "Myspace",
+  "input_file": "dataset/myspace-withcount.txt",
+  "input_sha256": "f106f317c878f5231906eb5f40fe962bdb7c30a7653e91c182d45207bea6ea6f",
+  "input_format": "frequency",
+  "configuration": {
+    "k": 20,
+    "dla_updates": 1,
+    "cua_updates": 1,
+    "seed": 20261145,
+    "registration_order_seed": 20261117
+  },
+  "preprocessing": {
+    "excluded_nonrecord_rows": 0,
+    "excluded_line_numbers": []
+  },
+  "code_revision": "914a5de9f2cc09f9cf1c8736dbbe2c51e6df37c6",
+  "runner_sha256": "c6f9415100cedbc93e0609e65f0a9e5f52e144bf88ca86b95eda00292b199379",
+  "model_sha256": "6465abba9a91eba58393806ce577fe383305471095e8ca7fdb7448d1f3b371e4",
+  "python_version": "3.12.3",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "output_file": "results/combined/myspace/seed-20261145.json",
+  "raw_credentials_exported": false,
+  "status": "combined_complete",
+  "users": 41545,
+  "initial_leak_targets": 37390,
+  "dla": {
+    "targets": 41545,
+    "recovered": 39029,
+    "recovery_ratio": 0.9394391623540739,
+    "residual_targets": 2516
+  },
+  "cua": {
+    "targets": 2516,
+    "recovered": 2516,
+    "attempts": 2647,
+    "realized_alarms": 0,
+    "expected_alarms_cost_model": 0.385543,
+    "alarm_hit_ratio": 0.0,
+    "initial_candidate_pairs": 7304,
+    "residual_recovery_ratio": 1.0,
+    "population_contribution": 0.060560837645926104
+  },
+  "total": {
+    "unique_recovered": 41545,
+    "recovery_ratio": 1.0
+  },
+  "elapsed_seconds": 3.072
+}

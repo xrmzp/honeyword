@@ -1,0 +1,11 @@
+{
+  "dataset_id": "12306",
+  "seed": 20261118,
+  "status": "timed_out",
+  "failure": "runner_timeout",
+  "timeout_seconds": 900,
+  "elapsed_seconds": 900.451,
+  "output_file": "F:/Xurui/Work/Paper/XuRui/elsarticle-honeyword/results/baseline/12306/seed-20261118.json",
+  "input_sha256": "902eed609f84fe8c60c43ae5f1a6cfeec0abe7ded56876c29e36fb809eda1b78",
+  "raw_credentials_exported": false
+}

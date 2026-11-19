@@ -1,0 +1,662 @@
+{
+  "status": "summary_complete",
+  "source_directory": "results\\sensitivity\\k40-m1-r1p0",
+  "datasets": {
+    "12306": {
+      "runs": 30,
+      "seeds": [
+        20261118,
+        20261119,
+        20261120,
+        20261121,
+        20261122,
+        20261123,
+        20261124,
+        20261125,
+        20261126,
+        20261127,
+        20261128,
+        20261129,
+        20261130,
+        20261131,
+        20261132,
+        20261133,
+        20261134,
+        20261135,
+        20261136,
+        20261137,
+        20261138,
+        20261139,
+        20261140,
+        20261141,
+        20261142,
+        20261143,
+        20261144,
+        20261145,
+        20261146,
+        20261147
+      ],
+      "users": 131653,
+      "input_sha256": "902eed609f84fe8c60c43ae5f1a6cfeec0abe7ded56876c29e36fb809eda1b78",
+      "configuration": {
+        "k": 40,
+        "m": 1,
+        "r": 1.0,
+        "seed": 20261118,
+        "registration_order_seed": 20261117
+      },
+      "metrics": {
+        "dla_fully_broken_ratio": {
+          "n": 30,
+          "mean": 0.9039614238439939,
+          "ci95": [
+            0.9038830778926557,
+            0.9040397697953322
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "dla_mean_candidate_set_size": {
+          "n": 30,
+          "mean": 1.374200360037371,
+          "ci95": [
+            1.3734708486915588,
+            1.374929871383183
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_honeyword_hit_ratio": {
+          "n": 30,
+          "mean": 0.0003140432465843324,
+          "ci95": [
+            0.00030949766324129716,
+            0.0003185888299273676
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_realized_alarms": {
+          "n": 30,
+          "mean": 683.4333333333333,
+          "ci95": [
+            673.5443609300578,
+            693.3223057366088
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_attempts": {
+          "n": 30,
+          "mean": 2176240.8,
+          "ci95": [
+            2175918.2263943376,
+            2176563.373605662
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_recovered": {
+          "n": 30,
+          "mean": 118487,
+          "ci95": [
+            118487.0,
+            118487.0
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_expected_alarms_cost_model": {
+          "n": 30,
+          "mean": 758.1298900666667,
+          "ci95": [
+            757.4082541893115,
+            758.8515259440219
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        }
+      }
+    },
+    "faithwriters": {
+      "runs": 30,
+      "seeds": [
+        20261118,
+        20261119,
+        20261120,
+        20261121,
+        20261122,
+        20261123,
+        20261124,
+        20261125,
+        20261126,
+        20261127,
+        20261128,
+        20261129,
+        20261130,
+        20261131,
+        20261132,
+        20261133,
+        20261134,
+        20261135,
+        20261136,
+        20261137,
+        20261138,
+        20261139,
+        20261140,
+        20261141,
+        20261142,
+        20261143,
+        20261144,
+        20261145,
+        20261146,
+        20261147
+      ],
+      "users": 9755,
+      "input_sha256": "c32f6d598d94f02f4af4eb5a6696616c0615f596745c825daf806d80050adc27",
+      "configuration": {
+        "k": 40,
+        "m": 1,
+        "r": 1.0,
+        "seed": 20261118,
+        "registration_order_seed": 20261117
+      },
+      "metrics": {
+        "dla_fully_broken_ratio": {
+          "n": 30,
+          "mean": 0.9037895096531693,
+          "ci95": [
+            0.9035360506818658,
+            0.9040429686244728
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "dla_mean_candidate_set_size": {
+          "n": 30,
+          "mean": 1.3757594396036221,
+          "ci95": [
+            1.3733017388656457,
+            1.3782171403415986
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_honeyword_hit_ratio": {
+          "n": 30,
+          "mean": 0.004195443873301064,
+          "ci95": [
+            0.004125014202496269,
+            0.00426587354410586
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_realized_alarms": {
+          "n": 30,
+          "mean": 689.9,
+          "ci95": [
+            678.4057525234782,
+            701.3942474765217
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_attempts": {
+          "n": 30,
+          "mean": 164442.73333333334,
+          "ci95": [
+            164358.75539310387,
+            164526.7112735628
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_recovered": {
+          "n": 30,
+          "mean": 8779,
+          "ci95": [
+            8779.0,
+            8779.0
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_expected_alarms_cost_model": {
+          "n": 30,
+          "mean": 765.0565080666667,
+          "ci95": [
+            764.2967530395774,
+            765.8162630937559
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        }
+      }
+    },
+    "hak5": {
+      "runs": 30,
+      "seeds": [
+        20261118,
+        20261119,
+        20261120,
+        20261121,
+        20261122,
+        20261123,
+        20261124,
+        20261125,
+        20261126,
+        20261127,
+        20261128,
+        20261129,
+        20261130,
+        20261131,
+        20261132,
+        20261133,
+        20261134,
+        20261135,
+        20261136,
+        20261137,
+        20261138,
+        20261139,
+        20261140,
+        20261141,
+        20261142,
+        20261143,
+        20261144,
+        20261145,
+        20261146,
+        20261147
+      ],
+      "users": 2987,
+      "input_sha256": "5db05aa1bf2ff709237470799947ba8f6e8284a10917f2944157e0b97546f812",
+      "configuration": {
+        "k": 40,
+        "m": 1,
+        "r": 1.0,
+        "seed": 20261118,
+        "registration_order_seed": 20261117
+      },
+      "metrics": {
+        "dla_fully_broken_ratio": {
+          "n": 30,
+          "mean": 0.9032362459546925,
+          "ci95": [
+            0.9026605767234771,
+            0.903811915185908
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "dla_mean_candidate_set_size": {
+          "n": 30,
+          "mean": 1.3786519361678384,
+          "ci95": [
+            1.3725249314857348,
+            1.384778940849942
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_honeyword_hit_ratio": {
+          "n": 30,
+          "mean": 0.014967789340194012,
+          "ci95": [
+            0.014797041631017952,
+            0.015138537049370073
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_realized_alarms": {
+          "n": 30,
+          "mean": 769.4333333333333,
+          "ci95": [
+            760.6052692853882,
+            778.2613973812784
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_attempts": {
+          "n": 30,
+          "mean": 51405.833333333336,
+          "ci95": [
+            51357.70532427326,
+            51453.96134239341
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_recovered": {
+          "n": 30,
+          "mean": 2688,
+          "ci95": [
+            2688.0,
+            2688.0
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_expected_alarms_cost_model": {
+          "n": 30,
+          "mean": 841.8317474,
+          "ci95": [
+            838.3799810596988,
+            845.2835137403013
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        }
+      }
+    },
+    "hotmail": {
+      "runs": 30,
+      "seeds": [
+        20261118,
+        20261119,
+        20261120,
+        20261121,
+        20261122,
+        20261123,
+        20261124,
+        20261125,
+        20261126,
+        20261127,
+        20261128,
+        20261129,
+        20261130,
+        20261131,
+        20261132,
+        20261133,
+        20261134,
+        20261135,
+        20261136,
+        20261137,
+        20261138,
+        20261139,
+        20261140,
+        20261141,
+        20261142,
+        20261143,
+        20261144,
+        20261145,
+        20261146,
+        20261147
+      ],
+      "users": 9813,
+      "input_sha256": "93f31ee9816429d5a59bb918be2a0f45e746f79e2447719c5fbf25739955faff",
+      "configuration": {
+        "k": 40,
+        "m": 1,
+        "r": 1.0,
+        "seed": 20261118,
+        "registration_order_seed": 20261117
+      },
+      "metrics": {
+        "dla_fully_broken_ratio": {
+          "n": 30,
+          "mean": 0.9038044770542478,
+          "ci95": [
+            0.9035340223594075,
+            0.9040749317490882
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "dla_mean_candidate_set_size": {
+          "n": 30,
+          "mean": 1.3756615374163526,
+          "ci95": [
+            1.3732971120516455,
+            1.3780259627810596
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_honeyword_hit_ratio": {
+          "n": 30,
+          "mean": 0.003964505826638489,
+          "ci95": [
+            0.003904168668118284,
+            0.004024842985158693
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_realized_alarms": {
+          "n": 30,
+          "mean": 633.5666666666667,
+          "ci95": [
+            623.8424291191653,
+            643.2909042141681
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_attempts": {
+          "n": 30,
+          "mean": 159807.7,
+          "ci95": [
+            159720.09692636473,
+            159895.3030736353
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_recovered": {
+          "n": 30,
+          "mean": 8831,
+          "ci95": [
+            8831.0,
+            8831.0
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_expected_alarms_cost_model": {
+          "n": 30,
+          "mean": 703.5014058666667,
+          "ci95": [
+            703.0581313857195,
+            703.9446803476138
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        }
+      }
+    },
+    "myspace": {
+      "runs": 30,
+      "seeds": [
+        20261118,
+        20261119,
+        20261120,
+        20261121,
+        20261122,
+        20261123,
+        20261124,
+        20261125,
+        20261126,
+        20261127,
+        20261128,
+        20261129,
+        20261130,
+        20261131,
+        20261132,
+        20261133,
+        20261134,
+        20261135,
+        20261136,
+        20261137,
+        20261138,
+        20261139,
+        20261140,
+        20261141,
+        20261142,
+        20261143,
+        20261144,
+        20261145,
+        20261146,
+        20261147
+      ],
+      "users": 41545,
+      "input_sha256": "f106f317c878f5231906eb5f40fe962bdb7c30a7653e91c182d45207bea6ea6f",
+      "configuration": {
+        "k": 40,
+        "m": 1,
+        "r": 1.0,
+        "seed": 20261118,
+        "registration_order_seed": 20261117
+      },
+      "metrics": {
+        "dla_fully_broken_ratio": {
+          "n": 30,
+          "mean": 0.9038833393509046,
+          "ci95": [
+            0.9037614412388413,
+            0.9040052374629679
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "dla_mean_candidate_set_size": {
+          "n": 30,
+          "mean": 1.3754434950054157,
+          "ci95": [
+            1.374191277929514,
+            1.3766957120813175
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_honeyword_hit_ratio": {
+          "n": 30,
+          "mean": 0.0009460769367140362,
+          "ci95": [
+            0.0009311209507329502,
+            0.0009610329226951222
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_realized_alarms": {
+          "n": 30,
+          "mean": 647.6666666666666,
+          "ci95": [
+            637.4253276494784,
+            657.9080056838549
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_attempts": {
+          "n": 30,
+          "mean": 684581.2333333333,
+          "ci95": [
+            684424.0909534106,
+            684738.375713256
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_recovered": {
+          "n": 30,
+          "mean": 37390,
+          "ci95": [
+            37390.0,
+            37390.0
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_expected_alarms_cost_model": {
+          "n": 30,
+          "mean": 718.2170977666667,
+          "ci95": [
+            718.0059868677783,
+            718.4282086655551
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        }
+      }
+    },
+    "single_org": {
+      "runs": 30,
+      "seeds": [
+        20261118,
+        20261119,
+        20261120,
+        20261121,
+        20261122,
+        20261123,
+        20261124,
+        20261125,
+        20261126,
+        20261127,
+        20261128,
+        20261129,
+        20261130,
+        20261131,
+        20261132,
+        20261133,
+        20261134,
+        20261135,
+        20261136,
+        20261137,
+        20261138,
+        20261139,
+        20261140,
+        20261141,
+        20261142,
+        20261143,
+        20261144,
+        20261145,
+        20261146,
+        20261147
+      ],
+      "users": 16250,
+      "input_sha256": "8c8510cc281d0f1f13250297f4dc0293449f503e348633e69746d80d2f534d56",
+      "configuration": {
+        "k": 40,
+        "m": 1,
+        "r": 1.0,
+        "seed": 20261118,
+        "registration_order_seed": 20261117
+      },
+      "metrics": {
+        "dla_fully_broken_ratio": {
+          "n": 30,
+          "mean": 0.9039630769230769,
+          "ci95": [
+            0.9037162797783707,
+            0.9042098740677831
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "dla_mean_candidate_set_size": {
+          "n": 30,
+          "mean": 1.3744964102564103,
+          "ci95": [
+            1.372577695610124,
+            1.3764151249026966
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_honeyword_hit_ratio": {
+          "n": 30,
+          "mean": 0.0029942827391965915,
+          "ci95": [
+            0.002964699737214332,
+            0.003023865741178851
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_realized_alarms": {
+          "n": 30,
+          "mean": 847.4,
+          "ci95": [
+            838.9983762302486,
+            855.8016237697514
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_attempts": {
+          "n": 30,
+          "mean": 283005.5333333333,
+          "ci95": [
+            282888.2283485142,
+            283122.83831815247
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_recovered": {
+          "n": 30,
+          "mean": 14625,
+          "ci95": [
+            14625.0,
+            14625.0
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        },
+        "cua_expected_alarms_cost_model": {
+          "n": 30,
+          "mean": 925.1812565,
+          "ci95": [
+            923.536020414192,
+            926.8264925858081
+          ],
+          "interval_method": "Student-t 95 percent interval"
+        }
+      }
+    }
+  },
+  "raw_credentials_exported": false,
+  "interval_method": "Student-t 95 percent interval over independent run-level estimates; bounded ratio metrics switch to a deterministic percentile bootstrap (10000 resamples) when the t interval leaves [0,1]"
+}

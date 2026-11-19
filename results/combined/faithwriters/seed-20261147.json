@@ -1,0 +1,50 @@
+{
+  "dataset_id": "faithwriters",
+  "dataset": "Faithwriters",
+  "input_file": "dataset/faithwriters-withcount.txt",
+  "input_sha256": "c32f6d598d94f02f4af4eb5a6696616c0615f596745c825daf806d80050adc27",
+  "input_format": "frequency",
+  "configuration": {
+    "k": 20,
+    "dla_updates": 1,
+    "cua_updates": 1,
+    "seed": 20261147,
+    "registration_order_seed": 20261117
+  },
+  "preprocessing": {
+    "excluded_nonrecord_rows": 0,
+    "excluded_line_numbers": []
+  },
+  "code_revision": "914a5de9f2cc09f9cf1c8736dbbe2c51e6df37c6",
+  "runner_sha256": "c6f9415100cedbc93e0609e65f0a9e5f52e144bf88ca86b95eda00292b199379",
+  "model_sha256": "6465abba9a91eba58393806ce577fe383305471095e8ca7fdb7448d1f3b371e4",
+  "python_version": "3.12.3",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "output_file": "results/combined/faithwriters/seed-20261147.json",
+  "raw_credentials_exported": false,
+  "status": "combined_complete",
+  "users": 9755,
+  "initial_leak_targets": 8779,
+  "dla": {
+    "targets": 9755,
+    "recovered": 9155,
+    "recovery_ratio": 0.938493080471553,
+    "residual_targets": 600
+  },
+  "cua": {
+    "targets": 600,
+    "recovered": 600,
+    "attempts": 652,
+    "realized_alarms": 0,
+    "expected_alarms_cost_model": 0.428542,
+    "alarm_hit_ratio": 0.0,
+    "initial_candidate_pairs": 1757,
+    "residual_recovery_ratio": 1.0,
+    "population_contribution": 0.06150691952844695
+  },
+  "total": {
+    "unique_recovered": 9755,
+    "recovery_ratio": 1.0
+  },
+  "elapsed_seconds": 0.603
+}

@@ -1,0 +1,931 @@
+{
+  "status": "summary_complete",
+  "source_directory": "results/combined",
+  "datasets": {
+    "12306": {
+      "planned_runs": 30,
+      "completed_runs": 30,
+      "failed_runs": 0,
+      "timed_out_runs": 0,
+      "completed_with_residual_targets": 30,
+      "completed_without_residual_targets": 0,
+      "seeds": [
+        20261118,
+        20261119,
+        20261120,
+        20261121,
+        20261122,
+        20261123,
+        20261124,
+        20261125,
+        20261126,
+        20261127,
+        20261128,
+        20261129,
+        20261130,
+        20261131,
+        20261132,
+        20261133,
+        20261134,
+        20261135,
+        20261136,
+        20261137,
+        20261138,
+        20261139,
+        20261140,
+        20261141,
+        20261142,
+        20261143,
+        20261144,
+        20261145,
+        20261146,
+        20261147
+      ],
+      "users": 131653,
+      "input_sha256": "902eed609f84fe8c60c43ae5f1a6cfeec0abe7ded56876c29e36fb809eda1b78",
+      "metrics": {
+        "dla_recovery_ratio": {
+          "n": 30,
+          "mean": 0.939193182077127,
+          "ci95": [
+            0.9388893645583684,
+            0.9394969995958856
+          ],
+          "interval_method": "Student-t"
+        },
+        "dla_recovered": {
+          "n": 30,
+          "mean": 123647.6,
+          "ci95": [
+            123607.60151220288,
+            123687.59848779714
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_residual_recovery_ratio": {
+          "n": 30,
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_recovered": {
+          "n": 30,
+          "mean": 8005.4,
+          "ci95": [
+            7965.401512202868,
+            8045.398487797132
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_residual_targets": {
+          "n": 30,
+          "mean": 8005.4,
+          "ci95": [
+            7965.401512202868,
+            8045.398487797132
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_population_contribution": {
+          "n": 30,
+          "mean": 0.060806817922873006,
+          "ci95": [
+            0.06050300040411436,
+            0.06111063544163165
+          ],
+          "interval_method": "Student-t"
+        },
+        "total_recovery_ratio": {
+          "n": 30,
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "interval_method": "Student-t"
+        },
+        "total_unique_recovered": {
+          "n": 30,
+          "mean": 131653,
+          "ci95": [
+            131653.0,
+            131653.0
+          ],
+          "interval_method": "Student-t"
+        },
+        "online_attempts": {
+          "n": 30,
+          "mean": 8443.333333333334,
+          "ci95": [
+            8394.45864206418,
+            8492.208024602487
+          ],
+          "interval_method": "Student-t"
+        },
+        "realized_alarms": {
+          "n": 30,
+          "mean": 0.03333333333333333,
+          "ci95": [
+            -0.03484098807109009,
+            0.10150765473775675
+          ],
+          "interval_method": "Student-t"
+        },
+        "alarm_hit_ratio": {
+          "n": 30,
+          "mean": 3.985333970986769e-06,
+          "ci95": [
+            0.0,
+            1.1956001912960306e-05
+          ],
+          "interval_method": "deterministic_percentile_bootstrap_10000"
+        },
+        "expected_alarms_cost_model": {
+          "n": 30,
+          "mean": 0.40335193333333336,
+          "ci95": [
+            0.39795835603460183,
+            0.4087455106320649
+          ],
+          "interval_method": "Student-t"
+        }
+      }
+    },
+    "faithwriters": {
+      "planned_runs": 30,
+      "completed_runs": 30,
+      "failed_runs": 0,
+      "timed_out_runs": 0,
+      "completed_with_residual_targets": 30,
+      "completed_without_residual_targets": 0,
+      "seeds": [
+        20261118,
+        20261119,
+        20261120,
+        20261121,
+        20261122,
+        20261123,
+        20261124,
+        20261125,
+        20261126,
+        20261127,
+        20261128,
+        20261129,
+        20261130,
+        20261131,
+        20261132,
+        20261133,
+        20261134,
+        20261135,
+        20261136,
+        20261137,
+        20261138,
+        20261139,
+        20261140,
+        20261141,
+        20261142,
+        20261143,
+        20261144,
+        20261145,
+        20261146,
+        20261147
+      ],
+      "users": 9755,
+      "input_sha256": "c32f6d598d94f02f4af4eb5a6696616c0615f596745c825daf806d80050adc27",
+      "metrics": {
+        "dla_recovery_ratio": {
+          "n": 30,
+          "mean": 0.9399282419272168,
+          "ci95": [
+            0.9386457419738419,
+            0.9412107418805917
+          ],
+          "interval_method": "Student-t"
+        },
+        "dla_recovered": {
+          "n": 30,
+          "mean": 9169,
+          "ci95": [
+            9156.489212954828,
+            9181.510787045172
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_residual_recovery_ratio": {
+          "n": 30,
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_recovered": {
+          "n": 30,
+          "mean": 586,
+          "ci95": [
+            573.4892129548274,
+            598.5107870451726
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_residual_targets": {
+          "n": 30,
+          "mean": 586,
+          "ci95": [
+            573.4892129548274,
+            598.5107870451726
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_population_contribution": {
+          "n": 30,
+          "mean": 0.060071758072783185,
+          "ci95": [
+            0.05878925811940824,
+            0.06135425802615813
+          ],
+          "interval_method": "Student-t"
+        },
+        "total_recovery_ratio": {
+          "n": 30,
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "interval_method": "Student-t"
+        },
+        "total_unique_recovered": {
+          "n": 30,
+          "mean": 9755,
+          "ci95": [
+            9755.0,
+            9755.0
+          ],
+          "interval_method": "Student-t"
+        },
+        "online_attempts": {
+          "n": 30,
+          "mean": 625.2666666666667,
+          "ci95": [
+            610.3872053206667,
+            640.1461280126666
+          ],
+          "interval_method": "Student-t"
+        },
+        "realized_alarms": {
+          "n": 30,
+          "mean": 0.1,
+          "ci95": [
+            -0.013936883013668896,
+            0.21393688301366892
+          ],
+          "interval_method": "Student-t"
+        },
+        "alarm_hit_ratio": {
+          "n": 30,
+          "mean": 0.00017053423168906728,
+          "ci95": [
+            0.0,
+            0.00038983988577733007
+          ],
+          "interval_method": "deterministic_percentile_bootstrap_10000"
+        },
+        "expected_alarms_cost_model": {
+          "n": 30,
+          "mean": 0.39763043333333337,
+          "ci95": [
+            0.38006870775507035,
+            0.4151921589115964
+          ],
+          "interval_method": "Student-t"
+        }
+      }
+    },
+    "hak5": {
+      "planned_runs": 30,
+      "completed_runs": 30,
+      "failed_runs": 0,
+      "timed_out_runs": 0,
+      "completed_with_residual_targets": 30,
+      "completed_without_residual_targets": 0,
+      "seeds": [
+        20261118,
+        20261119,
+        20261120,
+        20261121,
+        20261122,
+        20261123,
+        20261124,
+        20261125,
+        20261126,
+        20261127,
+        20261128,
+        20261129,
+        20261130,
+        20261131,
+        20261132,
+        20261133,
+        20261134,
+        20261135,
+        20261136,
+        20261137,
+        20261138,
+        20261139,
+        20261140,
+        20261141,
+        20261142,
+        20261143,
+        20261144,
+        20261145,
+        20261146,
+        20261147
+      ],
+      "users": 2987,
+      "input_sha256": "5db05aa1bf2ff709237470799947ba8f6e8284a10917f2944157e0b97546f812",
+      "metrics": {
+        "dla_recovery_ratio": {
+          "n": 30,
+          "mean": 0.93931480861511,
+          "ci95": [
+            0.9374409650832903,
+            0.9411886521469296
+          ],
+          "interval_method": "Student-t"
+        },
+        "dla_recovered": {
+          "n": 30,
+          "mean": 2805.733333333333,
+          "ci95": [
+            2800.1361627037877,
+            2811.3305039628785
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_residual_recovery_ratio": {
+          "n": 30,
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_recovered": {
+          "n": 30,
+          "mean": 181.26666666666668,
+          "ci95": [
+            175.6694960371215,
+            186.86383729621187
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_residual_targets": {
+          "n": 30,
+          "mean": 181.26666666666668,
+          "ci95": [
+            175.6694960371215,
+            186.86383729621187
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_population_contribution": {
+          "n": 30,
+          "mean": 0.06068519138489008,
+          "ci95": [
+            0.05881134785307046,
+            0.0625590349167097
+          ],
+          "interval_method": "Student-t"
+        },
+        "total_recovery_ratio": {
+          "n": 30,
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "interval_method": "Student-t"
+        },
+        "total_unique_recovered": {
+          "n": 30,
+          "mean": 2987,
+          "ci95": [
+            2987.0,
+            2987.0
+          ],
+          "interval_method": "Student-t"
+        },
+        "online_attempts": {
+          "n": 30,
+          "mean": 199.1,
+          "ci95": [
+            192.58254028361915,
+            205.61745971638084
+          ],
+          "interval_method": "Student-t"
+        },
+        "realized_alarms": {
+          "n": 30,
+          "mean": 0.06666666666666667,
+          "ci95": [
+            -0.028069506656465043,
+            0.16140283998979837
+          ],
+          "interval_method": "Student-t"
+        },
+        "alarm_hit_ratio": {
+          "n": 30,
+          "mean": 0.0003604024819068213,
+          "ci95": [
+            0.0,
+            0.000902954326290874
+          ],
+          "interval_method": "deterministic_percentile_bootstrap_10000"
+        },
+        "expected_alarms_cost_model": {
+          "n": 30,
+          "mean": 0.4429536333333333,
+          "ci95": [
+            0.4181636356208357,
+            0.46774363104583094
+          ],
+          "interval_method": "Student-t"
+        }
+      }
+    },
+    "hotmail": {
+      "planned_runs": 30,
+      "completed_runs": 30,
+      "failed_runs": 0,
+      "timed_out_runs": 0,
+      "completed_with_residual_targets": 30,
+      "completed_without_residual_targets": 0,
+      "seeds": [
+        20261118,
+        20261119,
+        20261120,
+        20261121,
+        20261122,
+        20261123,
+        20261124,
+        20261125,
+        20261126,
+        20261127,
+        20261128,
+        20261129,
+        20261130,
+        20261131,
+        20261132,
+        20261133,
+        20261134,
+        20261135,
+        20261136,
+        20261137,
+        20261138,
+        20261139,
+        20261140,
+        20261141,
+        20261142,
+        20261143,
+        20261144,
+        20261145,
+        20261146,
+        20261147
+      ],
+      "users": 9813,
+      "input_sha256": "93f31ee9816429d5a59bb918be2a0f45e746f79e2447719c5fbf25739955faff",
+      "metrics": {
+        "dla_recovery_ratio": {
+          "n": 30,
+          "mean": 0.939600529909304,
+          "ci95": [
+            0.9382619851664326,
+            0.9409390746521754
+          ],
+          "interval_method": "Student-t"
+        },
+        "dla_recovered": {
+          "n": 30,
+          "mean": 9220.3,
+          "ci95": [
+            9207.164860438203,
+            9233.435139561796
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_residual_recovery_ratio": {
+          "n": 30,
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_recovered": {
+          "n": 30,
+          "mean": 592.7,
+          "ci95": [
+            579.5648604382034,
+            605.8351395617967
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_residual_targets": {
+          "n": 30,
+          "mean": 592.7,
+          "ci95": [
+            579.5648604382034,
+            605.8351395617967
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_population_contribution": {
+          "n": 30,
+          "mean": 0.06039947009069602,
+          "ci95": [
+            0.05906092534782465,
+            0.06173801483356738
+          ],
+          "interval_method": "Student-t"
+        },
+        "total_recovery_ratio": {
+          "n": 30,
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "interval_method": "Student-t"
+        },
+        "total_unique_recovered": {
+          "n": 30,
+          "mean": 9813,
+          "ci95": [
+            9813.0,
+            9813.0
+          ],
+          "interval_method": "Student-t"
+        },
+        "online_attempts": {
+          "n": 30,
+          "mean": 619.8333333333334,
+          "ci95": [
+            604.0071205786951,
+            635.6595460879716
+          ],
+          "interval_method": "Student-t"
+        },
+        "realized_alarms": {
+          "n": 30,
+          "mean": 0.06666666666666667,
+          "ci95": [
+            -0.028069506656465043,
+            0.16140283998979837
+          ],
+          "interval_method": "Student-t"
+        },
+        "alarm_hit_ratio": {
+          "n": 30,
+          "mean": 0.00010419208432970573,
+          "ci95": [
+            0.0,
+            0.0002621476095196265
+          ],
+          "interval_method": "deterministic_percentile_bootstrap_10000"
+        },
+        "expected_alarms_cost_model": {
+          "n": 30,
+          "mean": 0.37307643333333335,
+          "ci95": [
+            0.35379260392929845,
+            0.39236026273736824
+          ],
+          "interval_method": "Student-t"
+        }
+      }
+    },
+    "myspace": {
+      "planned_runs": 30,
+      "completed_runs": 30,
+      "failed_runs": 0,
+      "timed_out_runs": 0,
+      "completed_with_residual_targets": 30,
+      "completed_without_residual_targets": 0,
+      "seeds": [
+        20261118,
+        20261119,
+        20261120,
+        20261121,
+        20261122,
+        20261123,
+        20261124,
+        20261125,
+        20261126,
+        20261127,
+        20261128,
+        20261129,
+        20261130,
+        20261131,
+        20261132,
+        20261133,
+        20261134,
+        20261135,
+        20261136,
+        20261137,
+        20261138,
+        20261139,
+        20261140,
+        20261141,
+        20261142,
+        20261143,
+        20261144,
+        20261145,
+        20261146,
+        20261147
+      ],
+      "users": 41545,
+      "input_sha256": "f106f317c878f5231906eb5f40fe962bdb7c30a7653e91c182d45207bea6ea6f",
+      "metrics": {
+        "dla_recovery_ratio": {
+          "n": 30,
+          "mean": 0.9392217274441369,
+          "ci95": [
+            0.9386024865463093,
+            0.9398409683419645
+          ],
+          "interval_method": "Student-t"
+        },
+        "dla_recovered": {
+          "n": 30,
+          "mean": 39019.96666666667,
+          "ci95": [
+            38994.24030356642,
+            39045.69302976692
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_residual_recovery_ratio": {
+          "n": 30,
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_recovered": {
+          "n": 30,
+          "mean": 2525.0333333333333,
+          "ci95": [
+            2499.3069702330868,
+            2550.75969643358
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_residual_targets": {
+          "n": 30,
+          "mean": 2525.0333333333333,
+          "ci95": [
+            2499.3069702330868,
+            2550.75969643358
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_population_contribution": {
+          "n": 30,
+          "mean": 0.06077827255586312,
+          "ci95": [
+            0.06015903165803555,
+            0.06139751345369069
+          ],
+          "interval_method": "Student-t"
+        },
+        "total_recovery_ratio": {
+          "n": 30,
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "interval_method": "Student-t"
+        },
+        "total_unique_recovered": {
+          "n": 30,
+          "mean": 41545,
+          "ci95": [
+            41545.0,
+            41545.0
+          ],
+          "interval_method": "Student-t"
+        },
+        "online_attempts": {
+          "n": 30,
+          "mean": 2660.133333333333,
+          "ci95": [
+            2629.059868483346,
+            2691.2067981833206
+          ],
+          "interval_method": "Student-t"
+        },
+        "realized_alarms": {
+          "n": 30,
+          "mean": 0.03333333333333333,
+          "ci95": [
+            -0.03484098807109009,
+            0.10150765473775675
+          ],
+          "interval_method": "Student-t"
+        },
+        "alarm_hit_ratio": {
+          "n": 30,
+          "mean": 1.2291052114060964e-05,
+          "ci95": [
+            0.0,
+            3.687315634218289e-05
+          ],
+          "interval_method": "deterministic_percentile_bootstrap_10000"
+        },
+        "expected_alarms_cost_model": {
+          "n": 30,
+          "mean": 0.39066463333333334,
+          "ci95": [
+            0.3818229804728892,
+            0.3995062861937775
+          ],
+          "interval_method": "Student-t"
+        }
+      }
+    },
+    "single_org": {
+      "planned_runs": 30,
+      "completed_runs": 30,
+      "failed_runs": 0,
+      "timed_out_runs": 0,
+      "completed_with_residual_targets": 30,
+      "completed_without_residual_targets": 0,
+      "seeds": [
+        20261118,
+        20261119,
+        20261120,
+        20261121,
+        20261122,
+        20261123,
+        20261124,
+        20261125,
+        20261126,
+        20261127,
+        20261128,
+        20261129,
+        20261130,
+        20261131,
+        20261132,
+        20261133,
+        20261134,
+        20261135,
+        20261136,
+        20261137,
+        20261138,
+        20261139,
+        20261140,
+        20261141,
+        20261142,
+        20261143,
+        20261144,
+        20261145,
+        20261146,
+        20261147
+      ],
+      "users": 16250,
+      "input_sha256": "8c8510cc281d0f1f13250297f4dc0293449f503e348633e69746d80d2f534d56",
+      "metrics": {
+        "dla_recovery_ratio": {
+          "n": 30,
+          "mean": 0.9390420512820513,
+          "ci95": [
+            0.9380823379277715,
+            0.9400017646363311
+          ],
+          "interval_method": "Student-t"
+        },
+        "dla_recovered": {
+          "n": 30,
+          "mean": 15259.433333333332,
+          "ci95": [
+            15243.837991326285,
+            15275.02867534038
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_residual_recovery_ratio": {
+          "n": 30,
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_recovered": {
+          "n": 30,
+          "mean": 990.5666666666667,
+          "ci95": [
+            974.9713246596198,
+            1006.1620086737137
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_residual_targets": {
+          "n": 30,
+          "mean": 990.5666666666667,
+          "ci95": [
+            974.9713246596198,
+            1006.1620086737137
+          ],
+          "interval_method": "Student-t"
+        },
+        "cua_population_contribution": {
+          "n": 30,
+          "mean": 0.06095794871794872,
+          "ci95": [
+            0.059998235363668904,
+            0.061917662072228534
+          ],
+          "interval_method": "Student-t"
+        },
+        "total_recovery_ratio": {
+          "n": 30,
+          "mean": 1.0,
+          "ci95": [
+            1.0,
+            1.0
+          ],
+          "interval_method": "Student-t"
+        },
+        "total_unique_recovered": {
+          "n": 30,
+          "mean": 16250,
+          "ci95": [
+            16250.0,
+            16250.0
+          ],
+          "interval_method": "Student-t"
+        },
+        "online_attempts": {
+          "n": 30,
+          "mean": 1109.1333333333334,
+          "ci95": [
+            1087.9426310285842,
+            1130.3240356380827
+          ],
+          "interval_method": "Student-t"
+        },
+        "realized_alarms": {
+          "n": 30,
+          "mean": 0.03333333333333333,
+          "ci95": [
+            -0.03484098807109009,
+            0.10150765473775675
+          ],
+          "interval_method": "Student-t"
+        },
+        "alarm_hit_ratio": {
+          "n": 30,
+          "mean": 2.8710881424059718e-05,
+          "ci95": [
+            0.0,
+            8.613264427217915e-05
+          ],
+          "interval_method": "deterministic_percentile_bootstrap_10000"
+        },
+        "expected_alarms_cost_model": {
+          "n": 30,
+          "mean": 0.4480085,
+          "ci95": [
+            0.4313501430335559,
+            0.46466685696644405
+          ],
+          "interval_method": "Student-t"
+        }
+      }
+    }
+  },
+  "validation": {
+    "dla_matches_same_seed_baseline": true,
+    "all_total_recoveries_within_population": true,
+    "all_cua_targets_match_dla_residuals": true
+  },
+  "failed_records": [],
+  "raw_credentials_exported": false,
+  "interval_method": {
+    "n_ge_2": "two-sided Student-t interval with df=n-1; bounded ratios use deterministic 10,000-resample percentile bootstrap only if the t interval exits [0,1]",
+    "n_eq_1": "descriptive mean only; no confidence interval",
+    "n_eq_0": "metric not estimable",
+    "failed_runs": "unfinished metrics remain missing and are excluded; summaries are conditional on completed runs"
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "dataset_id": "12306",
+  "dataset": "12306.cn",
+  "input_file": "dataset/12306-\u5b8c\u6574.txt",
+  "input_sha256": "902eed609f84fe8c60c43ae5f1a6cfeec0abe7ded56876c29e36fb809eda1b78",
+  "input_format": "12306_delimited",
+  "configuration": {
+    "k": 20,
+    "dla_updates": 1,
+    "cua_updates": 1,
+    "seed": 20261137,
+    "registration_order_seed": 20261117
+  },
+  "preprocessing": {
+    "excluded_nonrecord_rows": 1,
+    "excluded_line_numbers": [
+      1
+    ]
+  },
+  "code_revision": "914a5de9f2cc09f9cf1c8736dbbe2c51e6df37c6",
+  "runner_sha256": "c6f9415100cedbc93e0609e65f0a9e5f52e144bf88ca86b95eda00292b199379",
+  "model_sha256": "6465abba9a91eba58393806ce577fe383305471095e8ca7fdb7448d1f3b371e4",
+  "python_version": "3.12.3",
+  "platform": "Windows-11-10.0.22631-SP0",
+  "output_file": "results/combined/12306/seed-20261137.json",
+  "raw_credentials_exported": false,
+  "status": "combined_complete",
+  "users": 131653,
+  "initial_leak_targets": 118487,
+  "dla": {
+    "targets": 131653,
+    "recovered": 123755,
+    "recovery_ratio": 0.9400089629556485,
+    "residual_targets": 7898
+  },
+  "cua": {
+    "targets": 7898,
+    "recovered": 7898,
+    "attempts": 8276,
+    "realized_alarms": 0,
+    "expected_alarms_cost_model": 0.38187,
+    "alarm_hit_ratio": 0.0,
+    "initial_candidate_pairs": 22764,
+    "residual_recovery_ratio": 1.0,
+    "population_contribution": 0.059991037044351436
+  },
+  "total": {
+    "unique_recovered": 131653,
+    "recovery_ratio": 1.0
+  },
+  "elapsed_seconds": 17.619
+}
